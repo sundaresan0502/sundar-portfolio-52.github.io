@@ -760,6 +760,9 @@ header .navbar ul li a:hover {
 /* work section ends */
 
 /* experience section starts */
+.experience {
+  background-color: white;
+}
 .experience .timeline {
   position: relative;
   max-width: 1200px;
