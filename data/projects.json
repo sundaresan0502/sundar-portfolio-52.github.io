@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Cyber-bullying-detection-system",
+    "desc": "Cyber-bullying is the deliberate use of online digital media to communicate false, embarrassing, or hostile information about another person. In other words this system used to detect offensive word from the given text.",
+    "image": "hulu",
+    "category": "hulu",
+    "links": {
+      "view": "https://github.com/sundaresan0502/Cyber-bullying-detection-system",
+      "code": "https://github.com/sundaresan0502/Cyber-bullying-detection-system"
+    }
+  },
+  {
+    "name": "CodersClub",
+    "desc": "Codersclub is an intelligent platform to automate programming assignments on the cloud. Built for institutions, trainers and students",
+    "image": "hulu",
+    "category": "web",
+    "links": {
+      "view": "https://github.com/sundaresan0502/CodersClub",
+      "code": "https://github.com/sundaresan0502/CodersClub"
+    }
+  },
+  {
+    "name": "App-Explorer",
+    "desc": "An App Explorer consists of PDF reader, web browser, media player, photo viewer, notepad in a single window.By using our app explorer, multitasking facility hasin-corporated in which that, more than one application can run at a time.",
+    "image": "hulu",
+    "category": "webchat",
+    "links": {
+      "view": "https://github.com/sundaresan0502/App-Explorer",
+      "code": "https://github.com/sundaresan0502/App-Explorer"
+    }
+  },
+  {
+    "name": "blog-application",
+    "desc": "This blog application developed using react, nodejs and mongoDB. Used ReactJs as a frontend which under the client section, nodeJs as a backend under the server section and mongoDB as a database.",
+    "image": "hulu",
+    "category": "web",
+    "links": {
+      "view": "https://github.com/sundaresan0502/blog-application",
+      "code": "https://github.com/sundaresan0502/blog-application"
+    }
+  }
+]
