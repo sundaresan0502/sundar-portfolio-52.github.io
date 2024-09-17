@@ -81,10 +81,15 @@ var typed = new Typed(".typing-text", {
 
 async function fetchData(type = "skills") {
     let response
-    type === "skills" ?
+    if(type === "skills") {
         response = await fetch("./data/skills.json")
-        :
+    }
+    else if (type === "projects") {
         response = await fetch("./data/projects.json")
+    } else {
+        response = await fetch("./data/blogs.json")
+    }
+
     const data = await response.json();
     return data;
 }
@@ -146,6 +151,47 @@ function showProjects(projects) {
 
 }
 
+function showBlogs(blogs) {
+    let projectsContainer = document.querySelector("#blogs .box-container");
+    let projectHTML = "";
+    blogs.slice(0, 10).filter(blog => project.category != "android").forEach(blog => {
+        projectHTML += `
+        <div class="box tilt">
+      <img draggable="false" src="./assets/images/blogs/${blog.image}.png" alt="project" />
+      <div class="content">
+        <div class="tag">
+        <h3>${blog.name}</h3>
+        </div>
+        <div class="desc">
+          <p>${blog.desc}</p>
+          <div class="btns">
+            <a href="${blog.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+          </div>
+        </div>
+      </div>
+    </div>`
+    });
+    projectsContainer.innerHTML = projectHTML;
+
+    // <!-- tilt js effect starts -->
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+        max: 15,
+    });
+    // <!-- tilt js effect ends -->
+
+    /* ===== SCROLL REVEAL ANIMATION ===== */
+    const srtop = ScrollReveal({
+        origin: 'top',
+        distance: '80px',
+        duration: 1000,
+        reset: true
+    });
+
+    /* SCROLL PROJECTS */
+    srtop.reveal('.blogs .box', { interval: 200 });
+
+}
+
 fetchData().then(data => {
     showSkills(data);
 });
@@ -154,6 +200,9 @@ fetchData("projects").then(data => {
     showProjects(data);
 });
 
+fetchData("blogs").then(data => {
+    showBlogs(data);
+});
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
