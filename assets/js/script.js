@@ -152,10 +152,10 @@ function showProjects(projects) {
 }
 
 function showBlogs(blogs) {
-    let projectsContainer = document.querySelector("#blogs .box-container");
-    let projectHTML = "";
-    blogs.slice(0, 10).filter(blog => project.category != "android").forEach(blog => {
-        projectHTML += `
+    let blogContainer = document.querySelector("#blogs .box-container");
+    let blogHTML = "";
+    blogs.slice(0, 10).filter(blog => blog.category != "android").forEach(blog => {
+        blogHTML += `
         <div class="box tilt">
       <img draggable="false" src="./assets/images/blogs/${blog.image}.png" alt="project" />
       <div class="content">
@@ -171,7 +171,7 @@ function showBlogs(blogs) {
       </div>
     </div>`
     });
-    projectsContainer.innerHTML = projectHTML;
+    blogContainer.innerHTML = blogHTML;
 
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
