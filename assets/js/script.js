@@ -279,6 +279,9 @@ srtop.reveal('.education .box', { interval: 200 });
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
 
+/* SCROLL blogs */
+srtop.reveal('.blogs .box', { interval: 200 });
+
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 400 });
 srtop.reveal('.experience .timeline .container', { interval: 400 });
