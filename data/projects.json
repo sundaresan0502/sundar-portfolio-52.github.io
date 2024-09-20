@@ -2,7 +2,7 @@
   {
     "name": "Cyber-bullying-detection-system",
     "desc": "Cyber-bullying is the deliberate use of online digital media to communicate false, embarrassing, or hostile information about another person.",
-    "image": "CB_Img_2",
+    "image": "project-thum-2",
     "links": {
       "view": "https://github.com/sundaresan0502/Cyber-bullying-detection-system",
       "code": "https://github.com/sundaresan0502/Cyber-bullying-detection-system"
@@ -11,7 +11,7 @@
   {
     "name": "CodersClub",
     "desc": "Codersclub is an intelligent platform to automate programming assignments on the cloud. Built for institutions, trainers and students",
-    "image": "CC_Img_2",
+    "image": "project-thum-2",
     "links": {
       "view": "https://github.com/sundaresan0502/CodersClub",
       "code": "https://github.com/sundaresan0502/CodersClub"
@@ -20,16 +20,16 @@
   {
     "name": "App-Explorer",
     "desc": "An App Explorer consists of PDF reader, web browser, media player, photo viewer, notepad in a single window.By using our app explorer.",
-    "image": "AE_Img_1",
+    "image": "project-thum-3",
     "links": {
       "view": "https://github.com/sundaresan0502/App-Explorer",
       "code": "https://github.com/sundaresan0502/App-Explorer"
     }
   },
   {
-    "name": "Ecommerce",
+    "name": "EShop",
     "desc": "Traditional server rendered e-commerce store built on Spring Framework and Themeleaf for frontend. This application has all the feaures like IAM",
-    "image": "EC_Img_1",
+    "image": "project-thum-4",
     "links": {
       "view": "https://github.com/sundaresan0502/Ecommerce",
       "code": "https://github.com/sundaresan0502/Ecommerce"
@@ -38,7 +38,7 @@
   {
     "name": "My-CRUD",
     "desc": "An App make something on ASP.NET. This application contains basic CRUD Operation such as Create, Update, Delete",
-    "image": "MYCRUD_ASP_DOT_NET",
+    "image": "project-thum-5",
     "links": {
       "view": "https://github.com/sundaresan0502/MYCRUD_ASP.NET",
       "code": "https://github.com/sundaresan0502/MYCRUD_ASP.NET"
@@ -47,7 +47,7 @@
   {
     "name": "Game of Throne Family Tree",
     "desc": "It is an fun project with Listing the all of the game throne character in tree format. Every character's having an unique submenu.",
-    "image": "got-Overall",
+    "image": "project-thum-6",
     "links": {
       "view": "https://github.com/sundaresan0502/game-of-thrones-familyTree",
       "code": "https://github.com/sundaresan0502/game-of-thrones-familyTree"

@@ -2,7 +2,7 @@
   {
     "name": "Micro-FrontEnd",
     "desc": "Micro-frontend: From Monolith to Micro Service for frontend. Included Real World Example Scenario",
-    "image": "Micro-frontend-2",
+    "image": "blog-thum-1",
     "links": {
         "view": "https://sundaresan.hashnode.dev/micro-frontend-from-monolith-to-micro-service-for-frontend-included-real-world-example-scenario"
     }
@@ -10,7 +10,7 @@
   {
     "name": "AWS Elastic Beanstalk",
     "desc": "Intro about the AWS Elastic Beanstalk With step-by-step instructions to create a service.",
-    "image": "AWS-ELB",
+    "image": "blog-thum-2",
     "links": {
         "view": "https://sundaresan.hashnode.dev/aws-eb-intro-about-the-aws-elastic-beanstalk-with-step-by-step-instructions-to-create-a-service"
     }
@@ -18,15 +18,15 @@
   {
     "name": "AWS RDS",
     "desc": "AWS RDS — Quick guide about the Database Service in AWS with step-by-step process to create a new RDS Database",
-    "image": "AWS-RDS",
+    "image": "blog-thum-3",
     "links": {
         "view": "https://sundaresan.hashnode.dev/aws-rds-quick-guide-about-the-database-service-in-aws-with-step-by-step-process-to-create-a-new-rds-database"
     }
   },
   {
-    "name": "google identity platform (GIP) VS firebase authentication",
+    "name": "GIP VS firebase authentication",
     "desc": "In this blog, I hve discussed about the differences between google identity platform (GIP) and firebase authentication",
-    "image": "GCP-Identity-Platform",
+    "image": "blog-thum-4",
     "links": {
         "view": "https://sundaresan.hashnode.dev/differences-between-google-identity-platform-gip-and-firebase-authentication"
     }
@@ -34,7 +34,7 @@
   {
     "name": "Machine Learning Algorithms",
     "desc": "A Beginner guide for Machine Learning Algorithms — Let’s Understanding the Basics",
-    "image": "Machine-Learning-Algorithms",
+    "image": "blog-thum-5",
     "links": {
         "view": "https://sundaresan.hashnode.dev/a-beginner-guide-for-machine-learning-algorithms-lets-understanding-the-basics"
     }
@@ -42,7 +42,7 @@
   {
     "name": "AWS Elastic Load Balancer",
     "desc": "In this blog, I have writtent the how-to guide for setup an load balancer in aws",
-    "image": "Aws-load-balancer",
+    "image": "blog-thum-6",
     "links": {
         "view": "https://sundaresan.hashnode.dev/aws-load-balancer-the-how-to-guide-for-setup-an-load-balancer-in-aws"
     }
